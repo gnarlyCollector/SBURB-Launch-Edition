@@ -1,6 +1,6 @@
   body {
    font-family: "Courier New", Courier, monospace;
-   background-color: #535353;
+   background-color: #5A5A5A;
    font-weight: bold;
    font-size: 14px;
    text-align: center;
@@ -12,7 +12,7 @@
    font-size: 10px;
    color: white;
    padding: 4px;
-   background-color: #535353;
+   background-color: #5A5A5A;
    max-width: 950px;
    margin: auto;
 }
@@ -25,13 +25,14 @@
 }
  .contentbox {
    max-width: 650px;
-   background-color: #EEEEEE;
+   background-color: #FFFFFF;
    margin: auto;
    margin-top: 15px;
 }
  .contentbox h1 {
-   padding: 20px;
-   margin: 0;
+	font-size: 32px;
+    padding: 20px;
+    margin: 0;
 }
  .contentbox p {
    padding-left: 20px;
@@ -49,6 +50,12 @@
    font-family: "Verdana";
    padding-left: 25px
 }
+
+.logtext {
+	text-align: left;
+	margin-left: 5%
+}
+
  .chatborder {
    border: 1px dashed grey;
    text-align: left;
