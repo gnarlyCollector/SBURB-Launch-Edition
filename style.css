@@ -35,13 +35,14 @@
     margin: 0;
 }
  .contentbox p {
-   padding-left: 20px;
-   padding-right: 20px;
+   padding-left: 60px;
+   padding-right: 60px;
    padding-top: 10px;
+   line-height: 1.35;
 }
 
  .panel {
-   width: 100%;
+	width: 100%;
 }
  .prompt {
    text-align: left;
@@ -78,6 +79,30 @@
 @font-face {
   font-family: fontstuck;
   src: url(fontstuck.ttf);
+}
+
+@font-face {
+font-family:"courier-std";
+src:url("https://use.typekit.net/af/fec4eb/0000000000000000000131bd/27/l?subset_id=2&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/fec4eb/0000000000000000000131bd/27/d?subset_id=2&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/fec4eb/0000000000000000000131bd/27/a?subset_id=2&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"courier-std";
+src:url("https://use.typekit.net/af/3741dd/0000000000000000000131be/27/l?subset_id=2&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/3741dd/0000000000000000000131be/27/d?subset_id=2&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/3741dd/0000000000000000000131be/27/a?subset_id=2&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"courier-std";
+src:url("https://use.typekit.net/af/8143dd/0000000000000000000131bb/27/l?subset_id=2&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/8143dd/0000000000000000000131bb/27/d?subset_id=2&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/8143dd/0000000000000000000131bb/27/a?subset_id=2&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"courier-std";
+src:url("https://use.typekit.net/af/d0381a/0000000000000000000131bc/27/l?subset_id=2&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/d0381a/0000000000000000000131bc/27/d?subset_id=2&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/d0381a/0000000000000000000131bc/27/a?subset_id=2&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
 }
 
 .username {
